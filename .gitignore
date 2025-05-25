@@ -1,0 +1,40 @@
+# ───── Python cache & metadata ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.site-packages/
+
+# ───── uv / virtual-env artefacts ───────────────────────────────────
+# (pyproject.toml & uv.lock stay tracked)
+.opt/
+.opt-venv/
+.venv/
+.env
+root/.cache/uv/          # host-side download cache
+.cache/uv/
+
+# ───── build & dist output ─────────────────────────────────────────
+build/
+dist/
+wheelhouse/
+.eggs/
+deps/whisper/            # cloned/compiled locally only when experimenting
+*.whl
+*.log
+
+# ───── test / tooling artefacts ────────────────────────────────────
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.mypy_cache/
+
+# ───── editor / IDE files ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+**/.cursorrules
