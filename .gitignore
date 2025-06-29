@@ -22,6 +22,7 @@ dist/
 wheelhouse/
 .eggs/
 deps/whisper/            # cloned/compiled locally only when experimenting
+vendor/
 *.whl
 *.log
 
